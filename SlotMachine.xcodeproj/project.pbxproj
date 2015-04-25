@@ -13,6 +13,8 @@
 		36E7639E1AEB7CDD00408AA5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36E7639D1AEB7CDD00408AA5 /* Images.xcassets */; };
 		36E763A11AEB7CDD00408AA5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36E7639F1AEB7CDD00408AA5 /* LaunchScreen.xib */; };
 		36E763AD1AEB7CDE00408AA5 /* SlotMachineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E763AC1AEB7CDE00408AA5 /* SlotMachineTests.swift */; };
+		36E763B71AEBADE800408AA5 /* Slot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E763B61AEBADE800408AA5 /* Slot.swift */; };
+		36E763B91AEBB0B500408AA5 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E763B81AEBB0B500408AA5 /* Factory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		36E763A61AEB7CDE00408AA5 /* SlotMachineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlotMachineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36E763AB1AEB7CDE00408AA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36E763AC1AEB7CDE00408AA5 /* SlotMachineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotMachineTests.swift; sourceTree = "<group>"; };
+		36E763B61AEBADE800408AA5 /* Slot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slot.swift; sourceTree = "<group>"; };
+		36E763B81AEBB0B500408AA5 /* Factory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				36E763961AEB7CDD00408AA5 /* AppDelegate.swift */,
 				36E763981AEB7CDD00408AA5 /* ViewController.swift */,
+				36E763B81AEBB0B500408AA5 /* Factory.swift */,
+				36E763B61AEBADE800408AA5 /* Slot.swift */,
 				36E7639A1AEB7CDD00408AA5 /* Main.storyboard */,
 				36E7639D1AEB7CDD00408AA5 /* Images.xcassets */,
 				36E7639F1AEB7CDD00408AA5 /* LaunchScreen.xib */,
@@ -212,7 +218,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36E763B91AEBB0B500408AA5 /* Factory.swift in Sources */,
 				36E763991AEB7CDD00408AA5 /* ViewController.swift in Sources */,
+				36E763B71AEBADE800408AA5 /* Slot.swift in Sources */,
 				36E763971AEB7CDD00408AA5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
